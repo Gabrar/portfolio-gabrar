@@ -24,8 +24,8 @@ function LandingPage() {
                             </div>
                         </div>
                         <div className="flex relative flex-col items-center lg:items-end">
-                            <div className="animation-left">
-                                <img src="/gabrar-pictures/gabrar.jpeg" alt="" className="h-40 md:h-50 border-3 rounded-full opacity-0 fade-3 lg:h-80 xl:h-90 2xl:h-100" />
+                            <div className="animation-left opacity-0">
+                                <img src="/gabrar-pictures/gabrar.jpeg" alt="" className="h-40 md:h-50 border-3 rounded-full fade-3 lg:h-80 xl:h-90 2xl:h-100" />
                             </div>
                         </div>
                         <div className="tracking-widest font-pixel animate-bounce lg:hidden">
@@ -42,16 +42,19 @@ function LandingPage() {
                             text={'Sobre mim'}
                             page={'/sobre'}
                             animation={'animation-right'}
+                            opacity={'0'}
                         />
                         <Button
                             text={'Projetos'}
                             page={'/projetos'}
                             animation={'animation-top'}
+                            opacity={0}
                         />
                         <Button
                             text={'Contato'}
                             page={'/contato'}
                             animation={'animation-left'}
+                            opacity={'0'}
                         />
                     </div>
                 </main>

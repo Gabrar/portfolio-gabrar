@@ -10,36 +10,41 @@ function Sobre() {
 
             <div className="flex flex-col items-center">
 
-                <div className="flex gap-5 justify-center lg:hidden ">
+                <div className="flex gap-5 justify-center lg:hidden">
                     <Button
                         text={'Projetos'}
                         page={'/projetos'}
-                        animation={'animation-top'}
+                        animation={'fade-1'}
+                        opacity={0}
                     />
                     <Button
                         text={'Contato'}
                         page={'/contato'}
-                        animation={'animation-bot'}
+                        animation={'fade-2'}
+                        opacity={0}
                     />
                     <Button
                         text={'Pagina Inicial'}
                         page={'/'}
-                        animation={'animation-top'}
+                        animation={'fade-3'}
+                        opacity={0}
                     />
                 </div>
 
-                <img src="/gabrar-pictures/gabrar2.jpeg" alt="" className=" border-3 border-white h-40 md:h-60 xl:h-70 m-10 mb-4 rounded-full hover:scale-110 transition lg:m-0 lg:mb-10 animate-pulse" />
+                <img src="/gabrar-pictures/gabrar2.jpeg" alt="" className=" border-3 border-white h-40 md:h-60 xl:h-70 m-10 mb-4 rounded-full hover:scale-110 transition lg:m-0 lg:mb-10 animate-pulse fade-2 opacity-0" />
 
                 <div className="hidden lg:flex lg:gap-5 lg:justify-center ">
                     <Button
                         text={'Projetos'}
                         page={'/projetos'}
-                        animation={'animation-top'}
+                        opacity={0}
+                        animation={'fade-1'}
                     />
                     <Button
                         text={'Contato'}
                         page={'/contato'}
-                        animation={'animation-bot'}
+                        opacity={0}
+                        animation={'fade-2'}
                     />
                 </div>
 
@@ -47,7 +52,8 @@ function Sobre() {
                     <Button
                         text={'Pagina Inicial'}
                         page={'/'}
-                        animation={'animation-top'}
+                        opacity={0}
+                        animation={'fade-3'}
                     />
                 </div>
 
