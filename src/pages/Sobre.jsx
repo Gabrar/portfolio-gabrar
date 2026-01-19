@@ -28,7 +28,7 @@ function Sobre() {
                     />
                 </div>
 
-                <img src="src/assets/gabrar2.jpeg" alt="" className=" border-3 border-white h-40 md:h-60 xl:h-70 m-10 mb-4 rounded-full hover:scale-110 transition lg:m-0 lg:mb-10 animate-pulse" />
+                <img src="public/gabrar-pictures/gabrar2.jpeg" alt="" className=" border-3 border-white h-40 md:h-60 xl:h-70 m-10 mb-4 rounded-full hover:scale-110 transition lg:m-0 lg:mb-10 animate-pulse" />
 
                 <div className="hidden lg:flex lg:gap-5 lg:justify-center ">
                     <Button
