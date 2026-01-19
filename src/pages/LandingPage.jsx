@@ -25,7 +25,7 @@ function LandingPage() {
                         </div>
                         <div className="flex relative flex-col items-center lg:items-end">
                             <div className="animation-left">
-                                <img src="./public/gabrar-pictures/gabrar.jpeg" alt="" className="h-40 md:h-50 border-3 rounded-full opacity-0 fade-3 lg:h-80 xl:h-90 2xl:h-100" />
+                                <img src="/gabrar-pictures/gabrar.jpeg" alt="" className="h-40 md:h-50 border-3 rounded-full opacity-0 fade-3 lg:h-80 xl:h-90 2xl:h-100" />
                             </div>
                         </div>
                         <div className="tracking-widest font-pixel animate-bounce lg:hidden">
