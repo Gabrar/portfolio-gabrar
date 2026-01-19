@@ -92,7 +92,7 @@ function Modal({ isOpen, onClose, projeto }) {
           </p>
 
           <h2 className="text-2xl font-bold text-white mb-4">{projeto.titulo}</h2>
-          <p className="text-gray-300 mb-6 text-sm leading-relaxed">
+          <p className="text-gray-300 mb-6 text-sm leading-relaxed text-justify">
             {projeto.descricao}
           </p>
 
