@@ -4,8 +4,6 @@ import Button from "../components/Button"
 
 function LandingPage() {
 
-    const navigate = useNavigate()
-
     return (
         <div className="relative overflow-hidden h-dvh flex flex-col items-center text-center font-montserrat pt-20">
 
