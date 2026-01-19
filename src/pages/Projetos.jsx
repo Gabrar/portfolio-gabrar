@@ -2,7 +2,7 @@ import { useState } from "react"
 import Card from "../components/CardProjetos"
 import Modal from "../components/Modal"
 import EditCarousel from "../components/EditCarousel";
-import { FaReact, FaNodeJs, } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaCss3Alt } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri"
 import { SiMysql } from "react-icons/si"
 
@@ -23,7 +23,7 @@ function Projetos() {
                 '/projects/description/emprestimos/components-show.jpeg',
                 '/projects/description/emprestimos/sheets-history.jpeg'
             ],
-            descricao: 'Um sistema para um seto de TI de uma Universidade que facilita o empréstimo de materiais de apoio para alunos e docentes. ',
+            descricao: 'Sistema desenvolvido em ReactJS para o setor de TI de uma universidade, visando otimizar o empréstimo de materiais de apoio (notebooks, cabos HDMI, projetores, etc.). O projeto surgiu da necessidade de substituir o controle físico em papel por uma solução digital. O sistema utiliza MySQL para o gerenciamento de inventário e usuários, registrando os empréstimos localmente e exportando o histórico completo para planilhas Excel no momento da devolução.',
             conteudoExtra: (
                 <EditCarousel 
                     icones={[
@@ -43,12 +43,17 @@ function Projetos() {
             title: 'Cine Data',
             imagem: [
                 '/projects/cine-data.png',
-                '/projects/description/emprestimos/login-page.jpeg',
-                '/projects/description/emprestimos/landing-page.jpeg',
-                '/projects/description/emprestimos/components-show.jpeg',
-                '/projects/description/emprestimos/sheets-history.jpeg'
             ],
-            descricao: 'Descrição detalhada do sistema de empréstimos...',
+            descricao: 'O Cine Data foi um dos meus primeiros projetos práticos com React, desenvolvido para aprofundar meus conhecimentos em consumo de APIs externas e transição para o desenvolvimento Fullstack. A plataforma permite consultar informações detalhadas sobre filmes — como sinopse, ano de lançamento e avaliação no IMDB — integrando o front-end em ReactJS com um back-end em NodeJS. É um projeto que marca o início da minha jornada na stack, focado em entender como os dados fluem entre o servidor e a interface.',
+            conteudoExtra: (
+                <EditCarousel 
+                    icones={[
+                        <FaReact className={`${iconClass}`}/>,
+                        <FaCss3Alt className={`${iconClass}`}/>,
+                        <FaNodeJs className={`${iconClass}`}/>,
+                    ]}
+                />
+            ),
             linkSite: 'https://cine-data.vercel.app/',
             linkRepo: 'https://github.com/Gabrar/cine-data'
         },
@@ -72,9 +77,9 @@ function Projetos() {
             </div>
 
             <Modal
-                isOpen={!!projetoAberto} // Verdadeiro se tiver um projeto selecionado
-                onClose={() => setProjetoAberto(null)} // Fecha o modal limpando o estado
-                projeto={projetoAberto || {}} // Passa os dados do projeto
+                isOpen={!!projetoAberto} 
+                onClose={() => setProjetoAberto(null)} 
+                projeto={projetoAberto || {}} 
             />
 
         </div>
@@ -82,18 +87,3 @@ function Projetos() {
 }
 
 export default Projetos
-
-/* {
-            id: 2,
-            title: 'Cine Data',
-            imagem: [
-                'src/assets/projects/emprestimos-dti.png',
-                'src/assets/projects/description/emprestimos/login-page',
-                'src/assets/projects/description/emprestimos/landing-page',
-                'src/assets/projects/description/emprestimos/components-show',
-                'src/assets/projects/description/emprestimos/sheets-history'
-            ],
-            descricao: 'Descrição detalhada do Cine Data...',
-            linkSite: 'https://google.com',
-            linkRepo: 'https://github.com'
-        },*/
