@@ -37,7 +37,6 @@ function Contato() {
             reply_to: email
         }
 
-        // Substitua os IDs abaixo pelos que você vai pegar no site do EmailJS
         emailjs.send("service_zok979a", "template_ctxiopg", templateParams, "ma8tBFKlYQTcfuJ1a")
             .then((response) => {
                 console.log("EMAIL ENVIADO", response.status, response.text);
