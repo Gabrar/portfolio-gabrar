@@ -1,6 +1,6 @@
 
 import { Outlet, useNavigate } from "react-router-dom"
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 import { Github, Linkedin } from "lucide-react"
 
 function App() {
