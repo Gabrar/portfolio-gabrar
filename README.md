@@ -10,6 +10,6 @@
 
 <div>
   <p>
-    Este repositório contem o código-fonte do meu portfólio como desenvolvedor fullstack.
+    Este repositório contem o código-fonte do meu portfólio como desenvolvedor fullstack, com o foco principal em apresentar minhas habilidades profissionais, experiências passadas e projetos desenvolvidos.
   </p>
 </div>
