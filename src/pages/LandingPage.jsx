@@ -5,7 +5,7 @@ import Button from "../components/Button"
 function LandingPage() {
 
     return (
-        <div className="relative overflow-hidden h-dvh flex flex-col items-center text-center font-montserrat pt-20">
+        <div className="relative overflow-y-auto h-dvh flex flex-col items-center text-center font-montserrat pt-20">
 
             <div className="relative z-10 flex flex-col items-center w-full h-full">
 
@@ -55,7 +55,19 @@ function LandingPage() {
                             opacity={'0'}
                         />
                     </div>
+
+
                 </main>
+
+                <div className="hidden lg:flex lg:ml-auto lg:mt-auto lg:p-4">
+                    <a
+                        href="/archives/Curriculo_Gabriel_Dias_Siqueira.pdf"
+                        download="Curriculo_Gabriel_Dias_Siqueira.pdf"
+                        className="border-2 p-3 rounded-full hover:bg-slate-700 transition delay-75 text-center inline-block"
+                    >
+                        Baixar CV
+                    </a>
+                </div>
             </div>
         </div>
     )
