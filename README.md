@@ -12,4 +12,7 @@
   <p>
     Este repositório contem o código-fonte do meu portfólio como desenvolvedor fullstack, com o foco principal em apresentar minhas habilidades profissionais, experiências passadas e projetos desenvolvidos.
   </p>
+  <p>
+    Além disso, me serviu muito bem como base de estudo para experimentar tecnologias novas.
+  </p>
 </div>
