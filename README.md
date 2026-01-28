@@ -22,4 +22,4 @@
 
 AS SEGUINTES FERRAMENTAS FORAM UTILIZADAS NA CONSTRUÇÃO DESTE PROJETO:
 
-**CORE:**![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+**CORE:** ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
