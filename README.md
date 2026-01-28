@@ -5,3 +5,11 @@
   <img src="./public/aboutpreview.jpeg" width="250px">
   <img src="./public/projectspreview.jpeg" width="250px">
 </div>
+
+# Sobre o projeto
+
+<div>
+  <h2>
+    Este repositório contem o código-fonte do meu portfólio como desenvolvedor fullstack.
+  </h2>
+</div>
