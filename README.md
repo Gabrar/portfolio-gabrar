@@ -15,5 +15,5 @@
   <p>
     Além disso, me serviu muito bem como base de estudo para experimentar tecnologias novas.
   </p>
-  <h3>Você pode ver o projeto online clicando neste link: <a href="https://portfolio-gabrar.vercel.app/" target="_BLANK">asd</a></h3>
+  <h3>Você pode ver o projeto online clicando <a href="https://portfolio-gabrar.vercel.app/" target="_BLANK">neste link:</a></h3>
 </div>
