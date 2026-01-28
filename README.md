@@ -9,7 +9,7 @@
 # Sobre o projeto
 
 <div>
-  <h2>
+  <p>
     Este repositório contem o código-fonte do meu portfólio como desenvolvedor fullstack.
-  </h2>
+  </p>
 </div>
