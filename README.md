@@ -20,6 +20,6 @@
 
 # Tech Stack
 
-<div>
-  <h3>As seguintes ferramentas foram utilizadas na construção desse projeto.</h3>
-</div>
+AS SEGUINTES FERRAMENTAS FORAM UTILIZADAS NA CONSTRUÇÃO DESTE PROJETO:
+
+**CORE:**![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
