@@ -6,7 +6,7 @@
   <img src="./public/projectspreview.jpeg" width="250px">
 </div>
 
-# Sobre o projeto
+# Sobre o Projeto
 
 <div>
   <p>
@@ -15,5 +15,11 @@
   <p>
     Além disso, me serviu muito bem como base de estudo para experimentar tecnologias novas.
   </p>
-  <h3>Você pode ver o projeto online clicando <a href="https://portfolio-gabrar.vercel.app/" target="_BLANK">neste link:</a></h3>
+  <h3>Você pode ver o projeto online clicando <a href="https://portfolio-gabrar.vercel.app/" target="_BLANK">aqui</a></h3>
+</div>
+
+# Tech Stack
+
+<div>
+  <h3>As seguintes ferramentas foram utilizadas na construção desse projeto.</h3>
 </div>
