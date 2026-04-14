@@ -61,7 +61,7 @@ function LandingPage() {
 
                 <div className="hidden lg:flex lg:ml-auto lg:mt-auto lg:p-4">
                     <a
-                        href="/archives/Curriculo_Gabriel_Dias_Siqueira.pdf"
+                        href="/archives/Currículo Gabriel Dias Siqueira.pdf"
                         download="Curriculo_Gabriel_Dias_Siqueira.pdf"
                         className="border-2 p-3 rounded-full hover:bg-slate-700 transition delay-75 text-center inline-block"
                     >
