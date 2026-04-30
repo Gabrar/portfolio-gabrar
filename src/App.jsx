@@ -26,7 +26,7 @@ function App() {
           <a href="https://github.com/Gabrar" target="_BLANK">
             <Github className="2xl:size-8 cursor-pointer hover:text-slate-600 transition delay-50" />
           </a>
-          <a href="https://www.linkedin.com/in/gabriel-dias-siqueira/" target="_BLANK">
+          <a href="https://www.linkedin.com/in/gabriel-dias-siqueira-2a8972403/" target="_BLANK">
             <Linkedin className="2xl:size-8 cursor-pointer hover:text-slate-600 transition delay-50" />
           </a>
         </div>
