@@ -6,6 +6,7 @@ import EditCarousel from "../components/EditCarousel";
 import { FaReact, FaNodeJs, FaCss3Alt } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri"
 import { SiMysql } from "react-icons/si"
+import { TbBrandNextjs, TbBrandTypescript } from "react-icons/tb";
 
 function Projetos() {
 
@@ -61,6 +62,30 @@ function Projetos() {
             linkSite: 'https://cine-data.vercel.app/',
             linkRepo: 'https://github.com/Gabrar/cine-data'
         },
+        {
+            id: 3
+            ,
+            title: 'Núcleo Processual',
+            imagem: [
+                '/projects/nucleo-processual.jfif',
+                '/projects/description/nucleo-processual/anexo.jfif',
+                '/projects/description/nucleo-processual/criar-usuario.jfif',
+                '/projects/description/nucleo-processual/processos.jfif',
+                '/projects/description/nucleo-processual/usuarios.jfif'
+            ],
+            descricao: 'O núcleo processoal inicialmente foi um projeto piloto para apresentação que, infelizmente, acabou não indo para frente. Foi um projeto que desenvolvi em um curto espaço de tempo e que me ajudou a entender melhor como trabalhar com NextJS e TypeScript. O projeto final seria implementado com Firebase utilizando PostgreSQL, caso fosse aceito. Apeasr de ser apenas um piloto, o resultado ficou satisfatório e então resolvi deixar exposto em meu Portfólio.',
+            conteudoExtra: (
+                <EditCarousel
+                    icones={[
+                        <TbBrandNextjs className={`${iconClass}`} />,
+                        <TbBrandTypescript className={`${iconClass}`} />,
+                        <RiTailwindCssFill className={`${iconClass}`} />,
+                        <FaNodeJs className={`${iconClass}`} />
+                    ]}
+                />
+            ),
+            linkRepo: 'https://github.com/Gabrar/nelson-neto'
+        }
 
     ]
 

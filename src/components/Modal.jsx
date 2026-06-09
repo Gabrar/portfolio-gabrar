@@ -48,7 +48,7 @@ function Modal({ isOpen, onClose, projeto }) {
           <img
             src={projeto.imagem[indiceImagem]}
             alt={projeto.title}
-            className="w-full h-full object-contain" 
+            className="w-full h-70 object-contain" 
           />
 
           {projeto.imagem.length > 1 && (
