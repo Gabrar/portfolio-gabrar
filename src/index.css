@@ -21,7 +21,7 @@ html, body {
   }
 
   .blur-max {
-    --tw-blur: blur(100px):
+    --tw-blur: blur(100px);
   }
 }
 
@@ -131,4 +131,34 @@ html, body {
 
 .animate-infinite-scroll {
   animation: infinite-scroll 15s linear infinite;
+}
+
+@keyframes modal-scale {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-modal {
+  animation: modal-scale 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes modal-scale {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-modal {
+  animation: modal-scale 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }

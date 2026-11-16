@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
 
 
-function FlashMessage({ msg, color, type, visible, onClose }) {
+function FlashMessage({ msg, color, visible, onClose }) {
     
     useEffect(() => {
         // TIMER PARA QUE A IMAGEM DESAPAREÇA DEPOIS DE 3 SEGUNDOS
